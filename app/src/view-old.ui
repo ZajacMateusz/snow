@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
+<interface>
+  <requires lib="gtk+" version="3.12"/>
+  <object class="GtkWindow" id="main_window">
+    <property name="can_focus">False</property>
+    <property name="resizable">False</property>
+    <property name="window_position">center-always</property>
+    <property name="default_width">800</property>
+    <property name="default_height">600</property>
+    <property name="hide_titlebar_when_maximized">True</property>
+    <property name="skip_taskbar_hint">True</property>
+    <property name="accept_focus">False</property>
+    <property name="focus_on_map">False</property>
+    <signal name="destroy" handler="gtk_main_quit" swapped="no"/>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkFixed" id="fixed2">
+            <property name="width_request">800</property>
+            <property name="height_request">480</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkButton" id="bt_close_app">
+                <property name="label" translatable="yes">Zamknij</property>
+                <property name="width_request">150</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <signal name="clicked" handler="gtk_main_quit" swapped="no"/>
+              </object>
+              <packing>
+                <property name="x">640</property>
+                <property name="y">390</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="bt_close_app1">
+                <property name="label" translatable="yes">button 4</property>
+                <property name="width_request">150</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="focus_on_click">False</property>
+              </object>
+              <packing>
+                <property name="x">640</property>
+                <property name="y">280</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="bt_close_app2">
+                <property name="label" translatable="yes">button 3</property>
+                <property name="width_request">150</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="x">640</property>
+                <property name="y">190</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="bt_close_app3">
+                <property name="label" translatable="yes">button 2</property>
+                <property name="width_request">150</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="x">640</property>
+                <property name="y">100</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="bt_set_center">
+                <property name="label" translatable="yes">Wyśrodkuj</property>
+                <property name="width_request">150</property>
+                <property name="height_request">80</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="x">640</property>
+                <property name="y">10</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="map_box">
+                <property name="width_request">620</property>
+                <property name="height_request">420</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="has_tooltip">True</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="y">60</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkToolbar" id="toolbar1">
+                <property name="width_request">620</property>
+                <property name="height_request">40</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+              </object>
+              <packing>
+                <property name="x">10</property>
+                <property name="y">10</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="y">60</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
