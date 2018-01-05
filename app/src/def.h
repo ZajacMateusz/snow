@@ -2,7 +2,7 @@
 
 /* ******************* nmea file **************************** */
 
-char uart_data[] = "$GPGLL,4973.7831,N,01990.6901,W,225444,A";
+char uart_data[] = "$GPGLL,4994.3090,N, 01968.1339,W,225444,A";
 
  /* ******************* structs ***************************** */
 
@@ -33,7 +33,7 @@ OsmGpsMapLayer *osd;
 
 int demo_is_on= 0;
 device_data *device;             
-static gint timer = 0;
+//static gint timer = 0;
 
 short ui_visible_item= 0;
 

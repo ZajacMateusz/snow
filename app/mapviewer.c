@@ -1,6 +1,7 @@
 /*
  * mapviewer.c
- * Copyright (C) Mateusz Zając 2017 <zajac382@gmail.com>
+ * Copyright (C) Bartłomiej Sięka 2018 
+ * <zajac382@gmail.com>
  */
 
  /* ******************* libraries *************************** */
@@ -9,11 +10,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include <glib.h>
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
-#include "osm-gps-map.h"
+#include <osmgpsmap-1.0/osm-gps-map.h>
+#include <glib.h>
 
 #include "src/def.h"
 
@@ -82,7 +83,7 @@ nmea_parse( nmea *position, char data[] ){
 /* ******************* Function  ******************* */
 
 static GtkWidget *
-create_main_window(GtkBuilder * builder;){
+create_main_window(GtkBuilder * builder){
     
     GtkWidget * window;
     GError * error = NULL;
@@ -146,7 +147,7 @@ on_gps_data_in(char data[]){
 }
 
 static void
-on_set_information(){
+on_set_information(void){
 
     char text[11];
     sprintf(text, "%f", device->position->lat);
@@ -247,7 +248,7 @@ ui_on_demo(GtkWidget *widget){
 }
 
 static void
-ui_show_menu_item(){
+ui_show_menu_item(void){
 
     GtkImage *image= (GtkImage*)gtk_builder_get_object(builder, "img_gps_status");
     GdkPixbuf * image_src;    
@@ -289,7 +290,7 @@ ui_show_menu_item(){
 }
 
 static void
-ui_init(){
+ui_init(void){
 
     VIEW_MENU_OFF;
     SNOW_DEPTH_BOX_ON;

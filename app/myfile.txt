@@ -1,0 +1,32 @@
+Script started on pi±, 5 sty 2018, 17:08:09
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m sudo checkinstall make install[Ksudo checkinstall make install[15Pcd osm-gps-map/[3P/usr/lib/            man 
+Jakiej strony podrêcznika potrzebujesz?
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 
+gcc -I../libs/osm_gps_map/src -I. -Wall -Wstrict-prototypes -Wnested-externs -Werror=missing-prototypes -Werror=implicit-function-declaration -Werror=pointer-arith -Werror=init-self -Werror=format=2 -Werror=missing-include-dirs -Werror=return-type  -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include  -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -pthread -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -pthread -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 mapviewer.c -o  app 2> build.err
+Makefile:36: polecenia dla obiektu 'app' nie powiod³y siê
+make: *** [app] B³±d 1
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m script stop
+Script started, file is stop
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make > 1> build.out
+make: *** [app] B³±d 1
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 1> build.out > 123
+make: *** [app] B³±d 1
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 1> build.out > 123
+make: *** [app] B³±d 2
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m ^C
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 1> build.out > 123     
+make: *** [app] B³±d 1
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 1> build.out 
+make: *** [app] B³±d 1
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 1> build.out 
+/bin/sh: 1: Syntax error: end of file unexpected
+make: *** [app] B³±d 2
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 1> build.out 
+make: *** [app] B³±d 1
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 1> build.out 
+make: *** [app] B³±d 1
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m 
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 1> build.out 
+make: *** [app] B³±d 1
+]0;pi@raspberrypi: ~/pi_program/current/app[01;32mpi@raspberrypi[00m:[01;34m~/pi_program/current/app $[00m make 1> build.out 
+]0;pi@raspberrypi: ~/pi_program/current/app

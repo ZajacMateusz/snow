@@ -1,0 +1,12 @@
+/tmp/cc2KlTKK.o: In function `ui_map_set_center':
+mapviewer.c:(.text+0x738): undefined reference to `osm_gps_map_set_center_and_zoom'
+/tmp/cc2KlTKK.o: In function `main':
+mapviewer.c:(.text+0xfe4): undefined reference to `osm_gps_map_source_is_valid'
+mapviewer.c:(.text+0xffc): undefined reference to `osm_gps_map_get_type'
+mapviewer.c:(.text+0x102c): undefined reference to `osm_gps_map_osd_get_type'
+mapviewer.c:(.text+0x112c): undefined reference to `osm_gps_map_get_type'
+mapviewer.c:(.text+0x1184): undefined reference to `osm_gps_map_set_center_and_zoom'
+mapviewer.c:(.text+0x1190): undefined reference to `osm_gps_map_get_type'
+mapviewer.c:(.text+0x11b8): undefined reference to `osm_gps_map_layer_add'
+mapviewer.c:(.text+0x1390): undefined reference to `osm_gps_map_image_add'
+collect2: error: ld returned 1 exit status
